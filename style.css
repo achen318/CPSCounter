@@ -1,0 +1,69 @@
+body {
+  background-color: white;
+  font-family: 'Comfortaa';
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+div {
+  border-style: solid;
+  border-radius: 1.5625em;
+  border-color: lightblue;
+  margin: 1.5625em;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+#play_again {
+  display: none;
+  width: 12.5em;
+}
+
+#play_again p {
+  font-size: 0.75em;
+}
+
+#play_again:hover {
+  background-color: lightgray;
+}
+
+#play_again:active {
+  background-color: #bfbfbf;
+}
+
+#click_box {
+  padding: 6.25em;
+}
+
+#click_box p {
+  font-size: 1em;
+}
+
+#click_box:hover {
+  background-color: lightgray;
+}
+
+#click_box:active {
+  background-color: #bfbfbf;
+}
+
+#info {
+  padding: 0.625em;
+  display: none;
+}
+
+#info p {
+  font-size: 1.25em;
+  margin: 0em;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CPS Counter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anthony Chen">
+    <meta name="description" content="Clicks per Second">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+  </head>
+  <body oncontextmenu="return false;">
+    <div id="header">
+      <h1>Clicks Per Second (CPS)</h1>
+    </div>
+    <div id="play_again" onclick="initInfo()">
+      <p>Press me to play again!</p>
+    </div>
+    <div id="click_box">
+      <p>Click Me!</p>
+    </div>
+    <div id="info">
+      <p><b>Total Clicks:</b> <span id="total_clicks"></span></p>
+      <p><b>Time Elapsed:</b> <span id="time_elapsed"></span></p>
+      <p><b>CPS:</b> <span id="cps_counter"></span></p>
+    </div>
+  </body>
+</html>
